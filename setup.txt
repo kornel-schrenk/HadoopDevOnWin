@@ -23,3 +23,20 @@ package: hu.schrenk.hadoop
 
 2. Import the new project into Eclipse
 
+3. Create Run Configuration - add program arguments
+
+The output directory must be non-exist!
+
+4. Install Hadoop Winutils
+
+https://github.com/cdarlint/winutils
+
+Hadoop version should be 3.1.1
+
+Environment variables have to be set!
+
+5. Setup logging
+
+a. Modify pom.xml - add log jars
+b. add log4j.properties - Setup path in the project properties
+
