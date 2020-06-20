@@ -20,3 +20,6 @@ groupId: hu.schrenk.hadoop
 artifactId: HadoopDevOnWin
 version: 1.0-SNAPSHOT
 package: hu.schrenk.hadoop
+
+2. Import the new project into Eclipse
+
