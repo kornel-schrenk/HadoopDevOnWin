@@ -40,3 +40,12 @@ Environment variables have to be set!
 a. Modify pom.xml - add log jars
 b. add log4j.properties - Setup path in the project properties
 
+6. Upgrade Hadoop version to 3.2.1 in the pom.xml:
+
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-client</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+
+	NOTE: This is in Sync with AWS EMR 6.0 Hadoop version: https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html
